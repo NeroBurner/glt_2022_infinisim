@@ -53,3 +53,10 @@ src/displayapp/DisplayApp.cpp  -> sim/displayapp/DisplayApp.cpp
 src/displayapp/LittleVGL.h     -> sim/displayapp/LittleVGL.h
 src/displayapp/LittleVGL.cpp   -> sim/displayapp/LittleVGL.cpp
 ```
+
+
+---
+
+## Emscripten WebAssembly
+
+2022-02-24: https://github.com/InfiniTimeOrg/InfiniSim/pull/6
