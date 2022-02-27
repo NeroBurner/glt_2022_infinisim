@@ -60,3 +60,9 @@ src/displayapp/LittleVGL.cpp   -> sim/displayapp/LittleVGL.cpp
 ## Emscripten WebAssembly
 
 2022-02-24: https://github.com/InfiniTimeOrg/InfiniSim/pull/6
+
+## InfiniTime Structure
+
+PR: https://github.com/InfiniTimeOrg/InfiniTime/pull/1015
+
+https://docs.infinitime.io/en/documentation-reorganization-architecture/developer-documentation/index.html
