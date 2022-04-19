@@ -39,6 +39,19 @@ Need LVGL simulator ... found one: [lvgl/lv_sim_eclipse_sdl ](https://github.com
 
 ---
 
+![InfiniTime Structure](architecture_infinitime.png)
+
+- Structure from PR: https://github.com/InfiniTimeOrg/InfiniTime/pull/1015
+
+---
+
+![InfiniSim Structure](architecture_infinisim.png)
+
+- C++ Logo: Jeremy Kratz - https://github.com/isocpp/logos
+- SDL Logo: https://www.libsdl.org
+
+---
+
 ## First Screen
 
 - Something easy
@@ -60,7 +73,7 @@ src/displayapp/LittleVGL.cpp   -> sim/displayapp/LittleVGL.cpp
 
 ---
 
-## 2021-11-13 Paddle
+## 2021-10-13 Paddle
 
 ![bg fit right](2021-10-13_Paddle.png)
 
@@ -96,6 +109,12 @@ src/displayapp/LittleVGL.cpp   -> sim/displayapp/LittleVGL.cpp
 
 ---
 
+## 2021-11-30 WatchFaces coming together
+
+![2021-11-30_WatchFaceDigital.png](2021-11-30_WatchFaceDigital.png) ![2021-11-30_WatchFaceAnalog.png](2021-11-30_WatchFaceAnalog.png) ![2021-11-30_PineTimeStyle.png](2021-11-30_PineTimeStyle.png)
+
+---
+
 ## Switching Screens, the hard-coded way
 
 - comment current screen define
@@ -118,12 +137,6 @@ src/displayapp/LittleVGL.cpp   -> sim/displayapp/LittleVGL.cpp
   Pinetime::Applications::Screens::Twos screen(&app);
 #endif
 ```
-
----
-
-## 2021-11-30 WatchFaces coming together
-
-![2021-11-30_WatchFaceDigital.png](2021-11-30_WatchFaceDigital.png) ![2021-11-30_WatchFaceAnalog.png](2021-11-30_WatchFaceAnalog.png) ![2021-11-30_PineTimeStyle.png](2021-11-30_PineTimeStyle.png)
 
 ---
 
@@ -180,8 +193,4 @@ void switch_to_screen(uint8_t screen_idx)
 
 2022-02-24: https://github.com/InfiniTimeOrg/InfiniSim/pull/6
 
-## InfiniTime Structure
-
-PR: https://github.com/InfiniTimeOrg/InfiniTime/pull/1015
-
-https://docs.infinitime.io/en/documentation-reorganization-architecture/developer-documentation/index.html
+---
